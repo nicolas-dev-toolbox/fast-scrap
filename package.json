@@ -1,0 +1,30 @@
+{
+  "name": "fast-scrap",
+  "version": "1.0.0",
+  "description": "A web scraping tool using Puppeteer for efficient HTML content extraction.",
+  "main": "src/scraper.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nicolas-dev-toolbox/fast-scrap.git"
+  },
+  "keywords": [
+    "web scraping",
+    "puppeteer",
+    "automation",
+    "headless browser"
+  ],
+  "author": "Nicolas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nicolas-dev-toolbox/fast-scrap/issues"
+  },
+  "homepage": "https://github.com/nicolas-dev-toolbox/fast-scrap#readme",
+  "dependencies": {},
+  "peerDependencies": {
+    "puppeteer-extra": "^3.3.6",
+    "puppeteer-extra-plugin-adblocker": "^2.13.6",
+    "puppeteer-extra-plugin-anonymize-ua": "^2.4.6",
+    "puppeteer-extra-plugin-recaptcha": "^3.6.8",
+    "puppeteer-extra-plugin-stealth": "^2.11.2"
+  }
+}
