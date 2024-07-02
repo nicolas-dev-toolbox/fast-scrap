@@ -1,8 +1,8 @@
-# fastScrap - JavaScript web scraping tool  
+# fast-scrap - JavaScript web scraping tool  
 
 ## Description
 
-`fastScrap` is a powerful web scraping tool built using Puppeteer, designed to efficiently extract HTML content from web pages. 
+`fast-scrap` is a powerful web scraping tool built using Puppeteer, designed to efficiently extract HTML content from web pages. 
 
 It leverages various plugins to enhance performance, evade detection by websites, and handle reCAPTCHA challenges automatically. 
 
@@ -18,24 +18,24 @@ The tool operates in headless mode to minimize resource usage and expedite the s
 
 ## Installation
 
-To install `fastScrap`, use npm or yarn:
+To install `fast-scrap`, use npm or yarn:
 
 ```bash
-npm install fastScrap
+npm install fast-scrap
 ```
 
 or
 
 ```bash
-yarn add fastScrap
+yarn add fast-scrap
 ```
 
 ## Usage
 ### Basic Usage
-Here's a basic example of how to use `fastScrap`:
+Here's a basic example of how to use `fast-scrap`:
 
 ```javascript
-const scrape = require('fastScrap');
+const scrape = require('fast-scrap');
 
 const url = 'https://example.com';
 
@@ -50,10 +50,10 @@ scrape({ url })
 ```
 
 ### Advanced Usage
-`fastScrap` supports advanced options such as using a proxy and solving reCAPTCHA challenges. Here's an example:
+`fast-scrap` supports advanced options such as using a proxy and solving reCAPTCHA challenges. Here's an example:
 
 ```javascript
-const scrape = require('fastScrap');
+const scrape = require('fast-scrap');
 
 const options = {
   url: 'https://example.com',
@@ -95,5 +95,5 @@ Feel free to adjust the parameters based on your application's needs.
 
 ---
 
-Happy scraping with `fastScrap`!
+Happy scraping with `fast-scrap`!
 
